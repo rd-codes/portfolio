@@ -1,13 +1,13 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #1E1E1E;
-  --ink: #F5F5F5;
-  --muted: #B8B8B8;
-  --accent: #9E9E9E;
-  --accent2: #EDEDED;
-  --card: #232323;
-  --border: #3A3A3A;
+  --bg: #121314;       
+  --ink: #EDEEF1;      
+  --muted: #B9BCC3;    
+  --accent: #C7CBD3;   
+  --accent2: #FFFFFF;  
+  --card: #1A1C1F;     
+  --border: #2A2D31;   
 }
 
 html { scroll-behavior: smooth; }
@@ -30,7 +30,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 3rem;
-  background: rgba(30, 30, 30, 0.92);
+  background: rgba(18, 19, 20, 0.92);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
 }
@@ -165,13 +165,13 @@ section {
 .btn:hover { border-color: var(--accent2); color: var(--accent2); }
 
 .btn-fill {
-  background: linear-gradient(135deg, #3A3A3A, var(--accent));
+  background: linear-gradient(135deg, #2A2D31, var(--accent));
   border-color: var(--accent);
   color: white;
 }
 
 .btn-fill:hover {
-  background: linear-gradient(135deg, #2E2E2E, var(--accent2));
+  background: linear-gradient(135deg, #222428, var(--accent2));
   border-color: var(--accent2);
   color: white;
 }
@@ -335,7 +335,7 @@ section {
   left: 0;
   width: 3px;
   height: 0;
-  background: linear-gradient(to bottom, #3A3A3A, var(--accent2));
+  background: linear-gradient(to bottom, #2A2D31, var(--accent2));
   transition: height 0.3s;
   z-index: 1;
 }
